@@ -2,11 +2,11 @@
 
 O afirmație `switch` poate înlocui validări `if` multiple.
 
-Aceasta oferă o modalitate mai descriptivă de a compara o valoare cu variante multiple.
+Aceasta oferă o modalitate mai descriptivă de a compara o valoare, cu variante multiple.
 
 ## Sintaxa
 
-`switch`-ul are una sau mai multe blocuri `case` și o opțiune default.
+`switch`-ul are unul sau mai multe blocuri `case` și o opțiune default.
 
 Arată astfel :
 
@@ -26,7 +26,7 @@ switch(x) {
 }
 ```
 
-- Valoarea lui `x` este verificată pentru o egalitate strictă relativ la valoarea din primul `case` (aceasta fiind `value1`), apoi relativ la cea de a doua (`value2`) ș.a.m.d.
+- Valoarea lui `x` este verificată pentru o egalitate strictă, relativ la valoarea din primul `case` (aceasta fiind `value1`), apoi relativ la cea de a doua (`value2`) ș.a.m.d.
 - Dacă este egalitate `switch`-ul începe să execute codul de la respectivul `case`, până la cel mai apropiat `break` (sau până la sfârșitul `switch`-ului).
 - Dacă nu se potrivește niciun caz atunci va fi executat codul de pe cazul `default` (dacă acesta există).
 
@@ -58,7 +58,7 @@ Aici `switch`-ul începe să-l compare pe `a` din prima variantă `case`, care e
 
 Apoi cu `4`. Există egalitate, așadar execuția începe de la `case 4` până la cel mai apropiat `break`.
 
-**Dacă nu există niciun `break` atunci execuția continuă cu următorul `case` fără nicio verificare.**
+**Dacă nu există niciun `break` atunci execuția continuă cu următorul `case`, fără nicio verificare.**
 
 Un exemplu fără `break`:
 
@@ -107,7 +107,7 @@ switch (+a) {
     alert("this doesn't run");
 }
 ```
-Aici `+a` va da `1`, care este comparat cu `b + 1` în `case`, și este executat codul corespondent.
+Aici `+a` va da `1`, care este comparat cu `b + 1` în `case`, și este executat codul corespunzător.
 ````
 
 ## Gruparea lui "case"
@@ -169,4 +169,4 @@ switch (arg) {
 
 1. Pentru `0`, `1` rulează primul `alert`.
 2. Pentru `2` rulează cel de al doilea `alert`.
-3. Dar pentru `3` rezultatul lui `prompt` este un string `"3"`, care nu este egal strict `===` cu numărul `3`. Așadar avem un cod mort în `case 3`! Va executa varianta `default`.
+3. Dar pentru `3` rezultatul lui `prompt` este un string `"3"`, care nu este strict egal `===` cu numărul `3`. Așadar avem un cod mort în `case 3`! Va executa varianta `default`.

@@ -4,7 +4,7 @@ importanță: 5
 
 # Rescrie "switch"-ul într-un "if"
 
-Scrie codul folosind `if..else` care ar corespunde următorului `switch`:
+Scrie codul corespunzător, folosind `if..else`, pentru următorul `switch`:
 
 ```js
 switch (browser) {

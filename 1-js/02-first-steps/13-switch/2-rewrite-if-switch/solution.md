@@ -21,6 +21,6 @@ switch (a) {
 }
 ```
 
-Te rog observă că: `break`-ul de la sfârșit nu este necesar. Dar îl punem pentru a face codul mai stabil în viitor.
+Te rog observă că: `break`-ul de la sfârșit nu este necesar. Dar îl punem pentru a face codul mai stabil pe viitor.
 
 În viitor se poate să vrem să adăugăm una sau mai multe ramuri `case`, spre exemplu `case 4`. Și dacă uităm să adăugăm un break înainte de el, la sfârșitul lui `case 3`, va exista o eroare. Așadar acest lucru este un fel de auto-asigurare.
