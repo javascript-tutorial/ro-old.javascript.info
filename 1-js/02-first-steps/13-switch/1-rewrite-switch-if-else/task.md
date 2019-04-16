@@ -1,10 +1,10 @@
-importance: 5
+importanță: 5
 
 ---
 
-# Rewrite the "switch" into an "if"
+# Rescrie "switch"-ul într-un "if"
 
-Write the code using `if..else` which would correspond to the following `switch`:
+Scrie codul folosind `if..else` care ar corespunde următorului `switch`:
 
 ```js
 switch (browser) {
@@ -23,4 +23,3 @@ switch (browser) {
     alert( 'We hope that this page looks ok!' );
 }
 ```
-
