@@ -1,4 +1,4 @@
-The first two checks turn into two `case`. The third check is split into two cases:
+Primele două validări se transformă în două `case`-uri. A treia verificare este ruptă în două cazuri:
 
 ```js run
 let a = +prompt('a?', '');
@@ -21,6 +21,6 @@ switch (a) {
 }
 ```
 
-Please note: the `break` at the bottom is not required. But we put it to make the code future-proof.
+Te rog observă că: `break`-ul de la sfârșit nu este necesar. Dar îl punem pentru a face codul mai stabil în viitor.
 
-In the future, there is a chance that we'd want to add one more `case`, for example `case 4`. And if we forget to add a break before it, at the end of `case 3`, there will be an error. So that's a kind of self-insurance.
+În viitor se poate să vrem să adăugăm una sau mai multe ramuri `case`, spre exemplu `case 4`. Și dacă uităm să adăugăm un break înainte de el, la sfârșitul lui `case 3`, va exista o eroare. Așadar acest lucru este un fel de auto-asigurare.
